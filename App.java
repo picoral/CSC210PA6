@@ -126,7 +126,6 @@ public class App extends Application {
         BorderPane p = new BorderPane();
 
         // Canvas(pixels across, pixels down)
-        // Note this is opposite order of parameters of the Garden in PA6.
         Canvas canvas = new Canvas(SIZE_ACROSS, SIZE_DOWN);
 
         // Command TextArea will hold the commands from the file
